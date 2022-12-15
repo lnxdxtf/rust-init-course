@@ -27,3 +27,18 @@ pub fn strTut(sta: String, stb: String) {
 pub fn retSomething(retA: String) -> String {
     return retA;
 }
+
+pub fn retCondtionStr(text: String) {
+    if text == "StringTest" {
+        println!("{}", text.bright_magenta());
+    } else {
+        println!("{}", "ok error ...".bright_yellow());
+    }
+    return;
+}
+
+pub fn workWithForLoop(arr: Vec<i32>) {
+    for i in arr {
+        println!("{}", i.bold().red());
+    }
+}
