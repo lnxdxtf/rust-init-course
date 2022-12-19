@@ -1,3 +1,6 @@
+mod modules;
+
 fn main() {
-    println!("Hello, world!");
+    modules::main_traits();
+    modules::main_overlaoding();
 }
