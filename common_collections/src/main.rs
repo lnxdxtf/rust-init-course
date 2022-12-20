@@ -40,7 +40,7 @@ fn section_hash_set() {
         println!("Intersection: {}", x);
     }
 
-    println!("---------");
+    println!("---------");  
     println!("union hashset styles");
     //style-1
     // for x in hash_set_1.union(&hash_set_2) {
