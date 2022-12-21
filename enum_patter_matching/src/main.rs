@@ -67,22 +67,21 @@ fn main() {
 
     // }
 
+    //     let sh = Shape::Octagon;
+    //     print!("{}", sh.corners());
 
-//     let sh = Shape::Octagon;
-//     print!("{}", sh.corners());
+    // }
 
-// }
-
-
-// enum Shape {Triangle, Square, Pentagon, Octagon}
-// impl Shape {
-//     fn corners(&self) -> i8 {
-//         match self {
-//             Shape::Triangle => 3,
-//             Shape::Square => 4,
-//             Shape::Pentagon => 5,
-//             Shape::Octagon => 8,
-//             _ => 0,
-//         }
-//     }
-// }
+    // enum Shape {Triangle, Square, Pentagon, Octagon}
+    // impl Shape {
+    //     fn corners(&self) -> i8 {
+    //         match self {
+    //             Shape::Triangle => 3,
+    //             Shape::Square => 4,
+    //             Shape::Pentagon => 5,
+    //             Shape::Octagon => 8,
+    //             _ => 0,
+    //         }
+    //     }
+    // }
+}
